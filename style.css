@@ -1,0 +1,81 @@
+
+*{
+    font-family:  Calibri;
+}
+body {
+background-color:  #252d37;
+}
+#main {
+width: 25%;
+margin: 0 auto;
+text-align: left;
+padding: 15px 35px;
+border: 1px solid #677083 ;
+border-radius: 5px;
+background-color:  #3a4057  ;
+}
+
+h1{
+color: #bec4da;
+font-size: 28px;
+}
+label {
+color: #bec4da ;
+display: block;
+margin-bottom: 10px;
+font-size: 14px;
+}
+
+input{
+width: 100%;
+height: 50px;
+margin-bottom: 7px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+font-size: 12px;
+padding-left:5px;
+}
+
+#divErrorNombre,
+#divErrorEmail,
+#divErrorClave,
+#divErrorConfirmaClave
+{
+width: 100%;
+height: 50px;
+margin-bottom: 7px;
+border: 3px solid #bd0202;
+border-radius: 4px;
+box-sizing: border-box;
+background-color: #f6f6f6;
+font-size: 12px;
+padding-top:12px;
+padding-left:5px;
+}
+
+
+img{
+float:right;
+padding-right: 3px;
+}
+input[type="submit"] {
+background-color: #6d65f7;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #677083 ;
+}
+
+#ComprobarNombre,#ComprobarEmail,
+#ComprobarClave,#ComprobarConfirmaClave {
+color: #fa0404;
+font-size: 12px;
+padding-bottom:10px
+
+}

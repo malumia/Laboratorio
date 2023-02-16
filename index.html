@@ -1,0 +1,35 @@
+<html >
+<head>
+<title>Laboratorio</title>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+  <div id="main">
+    <h1>Create Account</h1>
+    <label for="nombre" >Nombre</label>
+    <div id="imageNombre"></div>
+    <input type="text" id="nombre"  />
+    <div id="divErrorNombre" style="display: none" onclick="comprobar_enter_nombre(event)"></div>
+    <div id="ComprobarNombre"  ></div>
+    <label for="email">Email</label>
+    <input type="email" id="email"  />
+    <div id="divErrorEmail" style="display: none" onclick="comprobar_enter_email(event)"></div>
+    <div id="ComprobarEmail"  ></div>
+    <label for="clave">Clave</label>
+    <input type="password" id="clave" />
+    <div id="divErrorClave"  style="display: none" onclick="comprobar_enter_clave(event)"></div>
+    <div id="ComprobarClave" ></div>
+    <label for="ConfirmaClave">Confirme su clave</label>
+    <input type="password" id="ConfirmaClave" />
+    <div id="divErrorConfirmaClave" style="display: none" onclick="comprobar_enter_ConfirmaClave(event)"></div>
+    <div id="ComprobarConfirmaClave"  ></div>
+    <input  type="submit" onclick="return validar()" value="ENVIAR"/>
+   
+  </main>
+
+  
+</body>
+</html>
